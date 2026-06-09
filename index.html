@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciência Ambiental: Desmatamento e Agro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="container">
+            <h1>Preservar para Prosperar</h1>
+            <p>O combate ao desmatamento através do Agronegócio Sustentável</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>O Desafio Global</h2>
+            <p>O desmatamento ilegal destrói a biodiversidade, altera o regime de chuvas e prejudica a própria produção agrícola. O futuro do planeta e da economia depende de uma transição para práticas que não exijam a derrubada de florestas nativas.</p>
+        </section>
+
+        <section class="grid">
+            <div class="card card-danger">
+                <h3>Causas e Impactos</h3>
+                <p>Abertura ilegal de pastagens e lavouras, causando perda de nutrientes do solo, erosão extrema e o aquecimento global.</p>
+            </div>
+            <div class="card card-success">
+                <h3>Soluções Sustentáveis</h3>
+                <p>Uso de tecnologias como a ILPF (Integração Lavoura-Pecuária-Floresta), recuperação de áreas degradadas e monitoramento por satélite.</p>
+            </div>
+        </section>
+
+        <section class="interactive-panel">
+            <h2>Simulador: O Impacto das Suas Escolhas</h2>
+            <p>Clique nos botões abaixo para ver o que acontece com a produtividade e o meio ambiente dependendo da técnica utilizada:</p>
+            
+            <div class="button-group">
+                <button id="btn-tradicional" class="btn btn-alert">Prática Tradicional (Expansiva)</button>
+                <button id="btn-sustentavel" class="btn btn-grow">Prática Sustentável (Tecnológica)</button>
+            </div>
+
+            <div id="painel-resultado" class="resultado-box hidden">
+                <h4 id="resultado-titulo"></h4>
+                <p id="resultado-texto"></p>
+                <div class="grafico-container">
+                    <div class="barra">
+                        <span>Produtividade:</span>
+                        <div id="barra-produtividade" class="progresso"></div>
+                    </div>
+                    <div class="barra">
+                        <span>Preservação:</span>
+                        <div id="barra-preservacao" class="progresso"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvimento Web para um Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
